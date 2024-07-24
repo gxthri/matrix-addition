@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADDITION</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main"> <div>
+        <div class="header"><h1>ADDITION OF MATRICES</h1></div>
+        <div class="input">
+            <div class="rows">
+                    <label for="rows">ROWS</label><br>
+                    <input type="number" id="rows"class="input-box">
+            </div>
+            <div class="column">
+                    <label for="column">COLUMNS</label><br>
+                    <input type="number" id="column" class="input-box">
+            </div>
+            <div class="button">
+                    <button type="submit" onclick="submitFunction()"class="submit-box">Submit</button>
+            </div>
+        </div>
+
+        </div>
+            <div class="hidden" id="hidden">
+            <div class="input-matrix" id="input-matrix" >
+                <div class="matrix-1" id="matrix-1"></div>
+                <div class="matrix-2" id="matrix-2"></div>
+                <!-- <div class="button-add">
+                    <button type="submit" class="add-button">ADD</button>
+            </div> -->
+            </div>
+            <div class="output-matrix" id="output-matrix"></div>
+        </div>
+        <!-- <script src="script.js"></script> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: calc(100vh - 30px);
+    background-color:solid white;
+    margin: 0;
+}
+h1{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    /* box-shadow: 1px 0px 11px rgb(152, 149, 149); */
+    padding: 15px;
+    border-bottom: 5px solid rgb(8, 78, 20) ;
+}
+.input,.rows,.column,.button{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+.input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+   text-align: center;
+    justify-content: center;
+}
+.rows{
+    margin-right: 5%;
+    
+}
+
+.rows label, .column label{
+    font-size: small;
+}
+.column{
+    margin-right: 5%;
+    align-items: end;
+}
+.input-box, .submit-box{
+    border-radius: 9px;
+    text-align: center;
+}
+.submit-box{
+    margin-top: 10px;
+   align-items: center;
+    background-color: green;
+    height:25px;
+    color: azure;
+}
+.button {
+  color: aliceblue;
+}
+.hidden{
+    /* background-color: blue; */
+    height:calc(100% - 200px) ;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 0px 11px rgb(152, 149, 149); ;
+    border-radius: 50px;
+    padding: 10px;
+    overflow: auto;
+}
+.input-matrix{
+    /* width: 100%; */
+    margin-left: 5%;
+    margin-right: 5%;
+    height:200px;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    /* background-color: brown; */
+}
+.output-matrix{
+    margin-top: 5%;
+    width: 100%;
+    height:calc(100% - 190px);
+    text-align: center;
+    /* background-color: green; */
+}
+
+.matrix-1,.matrix-2{
+    margin-left: 30px;
+    height: 90%;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    /* background-color: black; */
+    /* box-shadow: 1px 0px 11px rgb(152, 149, 149); */
+}
+
+
+.matrix-div{
+    margin-top: 2%;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+}
+
+.table{
+   
+    /* border: 1px solid rgb(240, 234, 234); */
+    text-align: center;
+    width: 90%;
+    height: 90%;
+}
+
+.td{
+  
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    width:10%;
+    height:10%
+    
+}
+.inp{
+    text-align: center;
+    border-radius: 10px;
+    width:85%;
+    height:80%
+}
+
+.button-add{
+    display: inline-block;
+    background-color: rgb(18, 107, 18);
+    color: aliceblue;
+    border-radius: 9px;
+    height:25px;
+    width:5%;}
+    
+ #add-button{
+    text-align: center;
+ }
+
+.opclass{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 20px;
+    width:10%;
+    height:20%
+    
+}
+
+.optable{
+    /* border: 1px solid rgb(240, 234, 234); */
+    text-align: center;
+    margin-left: 35%;
+    width: 40%;
+    height: 70%;
+    
+}
